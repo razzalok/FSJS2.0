@@ -1,0 +1,3 @@
+increase input size
+position:static fixed
+float

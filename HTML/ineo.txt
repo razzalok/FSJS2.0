@@ -1,0 +1,34 @@
+h1 tag mdn
+aria-label
+formating
+	blockquote   
+	citation
+	pre tag
+	strong
+	em
+	small
+	sub
+	q tag
+	cite
+ins -insert
+del
+mark
+
+
+
+bdo dir="rtl" 
+<bdo dir="rtl">Humans</bdo>
+snamuH it will print like this
+
+map image target
+
+sementics
+table
+iframe
+Assignment.
+embed auido and video
+school class time table (with proper format)
+make single border
+embed youtube video in table with proper title
+input types
+more on semantics

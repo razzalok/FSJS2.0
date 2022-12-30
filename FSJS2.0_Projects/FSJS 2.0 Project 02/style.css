@@ -1,0 +1,96 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0;
+}
+.container{
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height:150vh;
+    width:inherit;
+    font-family: "Poppins",serif;
+    color:#fff;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    background-color: #0f0f0f;
+    
+    padding-left:60px;
+    height: 60px;
+}
+.navbar>div{
+    align-self:center;
+}
+.list>li:nth-child(1)::after{
+    content:"﹀";
+    color:#fff;
+    margin-left: 8px;
+    position: relative;
+    top: 5px;   
+}
+.navbar>div>img{
+    height: 30px;
+    padding-right: 20px;
+}
+.line{
+    width: 1px;
+    height:40px;
+    background-color: #fff;
+}
+
+.list{
+    display: flex;
+    /* align-self:center; */
+}
+.grow-list{
+    flex-grow: 1;
+}
+.list>li{
+    list-style: none;
+    margin: 15px;
+
+}
+.button-small{
+    background-color:#BA0CC5;
+    padding: 6px 18px;
+    border-radius: 7px;
+    margin-right: 50px;
+    font-family: "Poppins",serif;
+    font-weight: 600;
+    color:#fff;
+    border:none ;
+}
+
+.hero{
+    color:#fff;
+    position: absolute;
+    top:29vh;
+    left: 21vw;
+    text-align: center;
+    
+}
+.hero-heading{
+    width: 700px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.button-large{
+    background-color:#BA0CC5;
+    padding: 6px 18px;
+    border-radius: 7px;
+    margin-right: 50px;
+    font-family: "Poppins",serif;
+    font-weight: 600;
+    color:#fff;
+    border:none ;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.hero-description{
+    font-size: 22px;
+}
