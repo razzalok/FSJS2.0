@@ -232,3 +232,110 @@ main{
     line-height:20px;
     color: #e2dddd;
 }
+.hosting-pricing{
+    background-color:#111010;
+    padding-bottom:15vh;
+    
+}
+.hosting-pricing-header{
+    color: #fff;
+    display: flex;
+    justify-content:center;
+    text-align:center;
+    margin-top:10vh;
+    padding-top: 10vh;
+    font-size: 32px;
+}
+.hosting-pricing-header h1{
+    margin: 0px 5%;
+}
+
+.hosting-pricing-card-sec{
+    display: flex;
+    justify-content:center;
+    margin-top: 50px;
+    
+}
+
+.hosting-pricing-card{
+    background-color: #fff;
+    color: #0f0f0f;
+    width: 20vw;
+    padding: 20px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.hosting-pricing-card li{
+    list-style: none;
+
+}
+.hosting-pricing-card ul{
+    padding-left: 0pt;
+}
+
+.hosting-pricing-card h1{
+    font-size: 32px;
+    line-height: 0px;
+}
+.hosting-pricing-card p:nth-child(2){
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.hosting-pricing-card p:nth-child(2) span{
+    color: #757373d7;
+    font-size: 22px;
+}
+.hosting-pricing-card p:nth-child(3){
+    font-size: 14px;
+    /* font-weight: 600; */
+}
+.hosting-pricing-card hr{
+    color: #75737385;
+    /* border: #75737385 solid 1px ; */
+}
+.hosting-pricing-card ul li img{
+    content: '';
+    width: 15px; 
+    margin-right: 10px;
+} 
+.hosting-pricing-card ul li{
+    /* font-size: 14px; */
+    line-height: 30px;
+}
+.hosting-pricing-card button{
+    background-color: #0C8BFD;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 20px;
+    color: #fff;
+}
+.hosting-pricing-card:nth-child(2){
+    background-color:#0C8BFD;
+    color: #fff;
+}
+.hosting-pricing-card:nth-child(2) button{
+    background-color: #fff;
+    color: #0C8BFD;
+}
+
+.hosting-pricing-card:nth-child(2) p:nth-child(2) span{
+    color: #fcf8f8d7;
+    font-size: 22px;
+}
+.review{
+    /* margin-top: 10vh; */
+    padding: 8vh 8vw;
+
+}
+.review h1:nth-child(1){
+    width: 18vw;
+    font-size: 26px;
+    display: block;
+}
+.review-card{
+    border: #111010 solid 1px;
+    background-color: #0f0f0f;
+    color: #fff;
+    width: 20vw;
+}
