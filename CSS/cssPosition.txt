@@ -1,9 +1,0 @@
-position
-static
-relative
-absolute
-sticky
-
-flex
-display:flex
-flex-direction : row,column,row-reverse,column-reverse
