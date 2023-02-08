@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=`">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #303030;
+            color: #E5D68A;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1 id="container"></h1>
+        <script>
+
+            // 14. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript? Create a program which checks that the given number is even or odd.
+            const number = prompt("Enter a number");
+            if(number%2===0){
+                
+                document.getElementById("container").innerHTML=number + " is divisible by 2"
+                // alert("Yes number is even")
+            }else{
+                document.getElementById("container").innerHTML=number + " is not divisible by 2"
+                // alert("No number is not even")
+            }
+
+           
+        </script>
+</body>
+</html>

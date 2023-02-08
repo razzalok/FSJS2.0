@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #242B2E;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="container"></h1>
+    <script>
+        // 17. Write a program which tells the number of days in a month.
+        const monthName = prompt("Enter month name: ");
+        switch(monthName){
+            case "January": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "Febuary": document.getElementById("container").innerHTML = `${monthName} is of 28/29 days.`
+            break;
+            case "March": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "April": document.getElementById("container").innerHTML = `${monthName} is of 30 days.`
+            break;
+            case "May": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "June": document.getElementById("container").innerHTML = `${monthName} is of 30 days.`
+            break;
+            case "July": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "August": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "September": document.getElementById("container").innerHTML = `${monthName} is of 30 days.`
+            break;
+            case "October": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            case "November": document.getElementById("container").innerHTML = `${monthName} is of 30 days.`
+            break;
+            case "December": document.getElementById("container").innerHTML = `${monthName} is of 31 days.`
+            break;
+            default: document.getElementById("container").innerHTML = `Enter correct Month name.`
+            break;
+        }
+    </script>
+</body>
+</html>

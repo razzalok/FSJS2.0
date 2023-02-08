@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: #242B2E;
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h1 id="container"></h1>
+    <script>
+        // 16. Check if the season is Autumn, Winter, Spring or Summer. If the user input is :
+        // - September, October or November, the season is Autumn.
+        // - December, January or February, the season is Winter.
+        // - March, April or May, the season is Spring
+        // - June, July or August, the season is Summer
+        const season= (prompt("Enter Season: "));
+        console.log(season);
+        if(season=='September' || season=='October' || season== 'November'){
+            document.getElementById('container').innerHTML = "The season is Autumn"
+        }else if(season=='December' || season=='January' || season== 'February'){
+            document.getElementById('container').innerHTML = "The season is Winter"
+        }else if(season=='March' || season=='April' || season== 'May'){
+            document.getElementById('container').innerHTML = "The season is Spring"
+        }else if(season=='June' || season=='July' || season== 'August'){
+            document.getElementById('container').innerHTML = "The season is Summer"
+        }else{
+            document.getElementById('container').innerHTML = "Invalid! Season"
+        }
+    </script>
+</body>
+</html>
