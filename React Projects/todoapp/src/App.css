@@ -1,0 +1,112 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* width: 80%; */
+  
+  height: 100%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App>h1{
+  color: #03203C;
+
+}
+.todo-add{
+  display: flex;
+  justify-content: center;
+}
+#input-todo{
+  width: 55%;
+  height:50px;
+  border: 2px solid #758283;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 24px;
+  color: #242B2E;
+  margin-right: 20px;
+  padding-left: 20px;
+}
+.add-button{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px 35px;
+ font-size: 18px;
+  height: 55px;
+  background-color: #094b88;
+  color: #fff;
+  border: none;
+
+}
+.add-button:hover{
+  background-color: #03203C;
+  color: #fff;
+  transition: 0.5s;
+}
+.todo{
+  list-style: none;
+  display: flex;
+  background-color: #fff;
+  justify-content:space-between;
+  margin-left: 20%;
+  margin-right: 22%;
+  /* background-color: #0f34; */
+  text-align: left;
+  border: 2px solid #758283;
+  padding: 5px 5px 5px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  align-items: center;
+  font-size: 24px;
+  color: #242B2E;
+}
+.todo:hover{
+  border: 2px solid #03203C;
+}
+
+.delete-button{
+  background-color: #12A57C;
+  color: #242B2E;
+  border-radius: 10px;
+  padding: 15px 25px;
+  border: none;
+  font-size: 16px;
+  color: #fff;
+}
+.delete-button:hover{
+  color: #fff;
+  background-color: #E21717;
+  transition: 0.3s;
+}
+
+.empty{
+  color: #B4161B;
+  font-size: 24px;
+}
+.todo-list{
+  color: #03203C;
+  font-size: 22px;
+  /* text-align: left; */
+}
