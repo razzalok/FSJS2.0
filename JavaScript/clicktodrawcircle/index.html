@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .newelement{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            background-color: black;
+            
+        }
+        body{
+            height: 100vh;
+            width: 100%;
+            background-color: #fff;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1 class="fsjs">Hey are you here!</h1>
+    <ul>
+        <li class="container" id="con1">Alok</li>
+        <li class="container" id="con2">hitesh</li>
+        <li class="container" id="con3">Chaman</li>
+    </ul>
+    <p class="valid"></p>
+    <script>
+
+        let val = document.getElementById("con1");
+        console.log(val.innerHTML);
+        let val1 = document.getElementsByClassName("container")
+        console.log(val1);
+        val1[0].innerText ="Mohan" 
+        let val2 = document.getElementsByTagName("li")
+        console.log(val2);
+
+        // Query selector
+        let val3 = document.querySelector(".fsjs").innerText
+        console.log(val3);
+        let val4 = document.querySelector("h1").innerText
+        console.log(val4);
+
+        // Alert
+        // alert("Hello")
+        // setTimeout(()=>{ alert("Hello")},2000)
+        // confirmBox
+        // let val5=confirm("Are you sure?")
+        // if(val5){
+        //     document.querySelector(".valid").innerText="You have confirmed"
+        // }else{
+        //     document.querySelector(".valid").innerText ="You have canceled"
+        // }
+        let body = document.querySelector('body');
+
+
+        body.addEventListener("click",function(event){
+            let element = document.createElement("div");
+            element.classList.add("newelement");
+            // console.log(element);
+            element.style.left=event.clientX+"px";
+            element.style.top = event.clientY+"px";
+            element.style.backgroundColor = "#" + Math.floor(Math.random()*16777215).toString(16).padStart(6, '0').toUpperCase();;
+            body.appendChild(element)
+        })
+    </script>
+</body>
+</html>

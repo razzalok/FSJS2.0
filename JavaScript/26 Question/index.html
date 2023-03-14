@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        li{
+           
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <ul id="container"></ul>
+    <script>
+        // 26. Write a program to print the table of any number given by the user. The format of the output should be smiliar to the below example-
+// 	If the number given by the user is 2 then the output should look like this-
+// 	2 * 1 = 2
+// 	2 * 2 = 4
+// 	2 * 3 = 6 and so on till 2 * 10 = 20.
+
+    const num = prompt("Enter Number");
+    const element = document.getElementById('container');
+    for(var i=1;i<=10;i++){
+        var newList = document.createElement('li')
+        newList.textContent=`${num} * ${i} = ${num*i}`
+        element.append(newList)
+    }
+    
+    </script>
+</body>
+</html>
