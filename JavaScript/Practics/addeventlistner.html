@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Learning Event Lister</h1>
+    <p id="js">Event Listner</p>
+    <button id="jsbtn"></button>
+    <p id="js1"></p>
+</body>
+<script>
+    document.addEventListener("click",hello)
+    function hello(){
+        document.getElementById("js").innerText="Mouse Clicked"
+
+    }
+
+    // Click
+    // dblclick
+    // mouseenter
+    // mouseleave
+    // moveover
+    // imput
+    // keydown
+    // keyup
+    // keypress
+    // onload
+
+    document.addEventListener("dblclick",hello1)
+    function hello1(){
+        document.getElementById("jsbtn").innerText="Mouse Double Clicked"
+
+    }
+    document.addEventListener("mouseenter",hello2)
+    function hello2(){
+        document.getElementById("js1").innerText="Mouse Emetred"
+
+    }
+    document.addEventListener("mouseleave",hello3)
+    function hello3(){
+        document.getElementById("js1").innerText="Mouse Leaved"
+
+    }
+    document.addEventListener("moveover",hello4)
+    function hello4(){
+        document.getElementById("js").innerText="Mouse over"
+
+    }
+
+</script>
+</html>
