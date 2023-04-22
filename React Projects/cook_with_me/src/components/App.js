@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 function App  () {
   
   return (
-    <div className="bg-[#CAD5E2]">
+    <div className="bg-[#CAD5E2] bg-cover h-[100%]">
     <Navbar/>
     
      
