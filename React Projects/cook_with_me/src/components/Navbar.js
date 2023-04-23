@@ -8,17 +8,11 @@ const Navbar = () => {
 
   const handleSubmit = (event) => {
       event.preventDefault();
-      console.log(meal);
+      // console.log(meal);
       setMeal(meal)
       fetchDetails()
     }
 
-
-
-
-
-  
-  
   const fetchDetails = async()=>{
   const {data}= await Axios.get(baseUrl+meal)
     console.log(data);
@@ -30,9 +24,6 @@ const Navbar = () => {
   useEffect(()=>{
     fetchDetails()
   },[])
-
-
-  
 
   return (
     <div >

@@ -1,10 +1,10 @@
-import Hero from './Hero';
+// import Hero from './Hero';
 // import React,{useState} from 'react';
 import Navbar from './Navbar';
 function App  () {
   
   return (
-    <div className="bg-[#CAD5E2] bg-cover h-[100%]">
+    <div className="bg-[#CAD5E2] bg-cover pb-20">
     <Navbar/>
     
      
