@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Axios from 'axios'
 import Hero from './Hero'
-const Navbar = () => {
+const Main = () => {
  const [meal,setMeal]=useState('Sushi')
  const [meals,setMeals] = useState({})
  const baseUrl = 'https://www.themealdb.com/api/json/v1/1/search.php?s='
@@ -39,7 +39,7 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Main
 
 
           
